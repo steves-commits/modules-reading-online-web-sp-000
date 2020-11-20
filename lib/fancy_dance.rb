@@ -26,4 +26,9 @@ module FancyDance
   end
   
   
+  
+  class Kid
+  extend FancyDance::ClassMethods
+  include FancyDance::InstanceMethods
+end
 end
